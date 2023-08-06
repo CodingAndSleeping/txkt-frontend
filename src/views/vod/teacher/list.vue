@@ -160,6 +160,13 @@ export default {
         })
     },
 
+    add() {
+      console.log(this.$router)
+      this.$router.push({
+        path: '/vod/teacher/create'
+      })
+    },
+
     // 批量删除
     batchRemove() {
       if (this.multipleSelection.length === 0) {
