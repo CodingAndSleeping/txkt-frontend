@@ -197,7 +197,6 @@ export default {
     },
     // 当多选选项发生变化的时候调用
     handleSelectionChange(selection) {
-      console.log(selection)
       this.multipleSelection = selection
     }
   }
